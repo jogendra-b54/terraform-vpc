@@ -1,3 +1,5 @@
 vpc:
-    source:  "git@github.com/jogendra-b54/tf-module-vpc.git"
+    source:  "https://github.com/jogendra-b54/tf-module-vpc.git"
     version: "main"
+
+    
