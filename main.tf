@@ -1,6 +1,6 @@
 module "vpc" {
   source = "git::https://github.com/jogendra-b54/tf-module-vpc.git"
-}
+ }
 
 // You cannot variablize this piece of code in the source parameter
 
