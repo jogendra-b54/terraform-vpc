@@ -4,7 +4,7 @@
     }
    
      parameters {
-        choice(name: 'CHOICE', choices: ['dev', 'prod'], description: 'Select the Environment')
+        choice(name: 'ENV', choices: ['dev', 'prod'], description: 'Select the Environment')
     }
   
   
