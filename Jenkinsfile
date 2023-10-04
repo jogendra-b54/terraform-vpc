@@ -23,7 +23,7 @@
         }
         stage('terraform apply'){
              steps {
-                sh "tterraform apply -auto-approve -var-file=env-${ENV}/${ENV}.tfvars"
+                sh "terraform apply -auto-approve -var-file=env-${ENV}/${ENV}.tfvars"
              }
         }
     }
