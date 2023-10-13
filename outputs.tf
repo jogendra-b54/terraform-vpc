@@ -3,7 +3,7 @@ output "VPC_ID" {
 }
 
 output "VPC_CIDR" {
-    value = module.vpc.VPC_CIRD
+    value = module.vpc.VPC_CIDR
 }
 output "PRIVATE_SUBNET_IDS" {
     value = module.vpc.PRIVATE_SUBNET_IDS
